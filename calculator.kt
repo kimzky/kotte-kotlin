@@ -8,12 +8,11 @@ class Calculator(val name: String) {
     println("$name's Calculator 🧮")
   }
 
-  /* Unsure if the functions below here should be
-   included in the class or not, when running 
-   the code later on - you will notice if it works
-   or not, if it doesnt: try to put it inside the
-   class instead of putting it outside of the class.
+  /* All the functions for doing the mathematical operations:
+     Addition, subtraction, multiplication, division & power of
+     operations are all defined in the functions below.
    */
+   
   fun add(int1: Int, int2: Int): Int {
   return int1 + int2
 }
@@ -43,6 +42,8 @@ fun power(int1: Int, int2: Int): Int {
   return result
 }
 } 
+
+// Here the main() function starts, the code before it is all wrapped inside a class.
 
 
 fun main() {
